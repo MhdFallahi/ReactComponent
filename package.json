@@ -1,0 +1,26 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel ./src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "alias": {
+    "@root": "./src",
+    "@root/*": "./src/*"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2",
+    "process": "^0.11.10",
+    "punycode": "^1.4.1",
+    "querystring-es3": "^0.2.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
